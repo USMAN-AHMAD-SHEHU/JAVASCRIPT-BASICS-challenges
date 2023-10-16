@@ -1,2 +1,2 @@
 # JAVASCRIPT-BASICS-challenges
-JS basdics challenges
+JS basics challenges
