@@ -1,4 +1,4 @@
-// CHALLENGE: GRADE CALCULATOR
+// CHALLENGE: GRADE CALCULATOR challenges
 
 var mark = prompt('Input your grade');
 var grade;
