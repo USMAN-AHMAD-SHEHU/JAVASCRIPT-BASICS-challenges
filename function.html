@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Use JS to change a Webpage Color</title>
+        <style>
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #color-btn{
+                width: 50%;
+                padding: 10px 30px;
+                cursor: pointer;
+                display: block;
+                margin: auto;
+                background: rgb(69, 143, 240);
+                outline: none;
+                border-radius: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Challenge: Change a Webpage Color</h1>
+        <p>Click the button below to change background color</p>
+        <button id="color-btn">change BG color</button>
+
+        <script>
+            function changeColor () {
+                document.body.style.backgroundColor = "blue";
+            }
+            document.getElementById("color-btn").addEventListener(
+                "click", changeColor);
+        </script>
+    </body>
+</html>
